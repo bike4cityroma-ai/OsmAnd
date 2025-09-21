@@ -14,6 +14,22 @@ android {
 		versionName = "1.0"
 
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+flavorDimensions += listOf("branding")
+
+productFlavors {
+    create("osmand") {
+        dimension = "branding"
+        applicationId = "net.osmand"
+    }
+    create("theurbebike") {
+        dimension = "branding"
+        applicationId = "org.bike4city.theurbebike"
+        versionNameSuffix = "-tub"
+        resValue("string", "app_name", "TheUrbeBike")
+        manifestPlaceholders["appLabel"] = "TheUrbeBike"
+    }
+}
+
 	}
 
 	buildTypes {

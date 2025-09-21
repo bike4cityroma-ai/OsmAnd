@@ -1,1 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.bike4city.theurbebike">
+
+    <application
+        android:label="${appLabel}"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.TheUrbeBike">
+
+        <!-- Schermata "About" -->
+        <activity
+            android:name="org.bike4city.theurbebike.ui.AboutActivity"
+            android:exported="false" />
+
+        <!-- Schermata "Licenses" -->
+        <activity
+            android:name="org.bike4city.theurbebike.ui.LicensesActivity"
+            android:exported="false" />
+
+    </application>
+</manifest>
 

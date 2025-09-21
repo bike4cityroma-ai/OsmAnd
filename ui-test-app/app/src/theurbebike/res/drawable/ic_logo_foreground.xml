@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cerchio verde (ruota bici) -->
+    <path
+        android:fillColor="@color/tub_green"
+        android:pathData="M36,16a12,12 0 1,1 0,24a12,12 0 1,1 0,-24z"/>
+
+    <!-- Cerchio blu (seconda ruota) -->
+    <path
+        android:fillColor="@color/tub_blue"
+        android:pathData="M64,24a8,8 0 1,1 0,16a8,8 0 1,1 0,-16z"/>
+
+    <!-- Telaio -->
+    <path
+        android:fillColor="@color/tub_green"
+        android:pathData="M20,26h30l10,8l-6,6l-12,-8h-12z"/>
+
+    <!-- Strada -->
+    <path
+        android:fillColor="@color/tub_blue_dark"
+        android:pathData="M6,46h96v4h-96z"/>
+</vector>

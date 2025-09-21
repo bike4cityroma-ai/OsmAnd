@@ -1,1 +1,19 @@
+<resources>
+    <!-- Palette personalizzata (estratta dal tuo logo) -->
+    <color name="tub_green">#5A6D30</color>
+    <color name="tub_blue">#53919C</color>
+    <color name="tub_blue_dark">#3E7180</color>
+    <color name="tub_cream">#EAEDDD</color>
+
+    <!-- Mappatura Material 3 -->
+    <color name="md_theme_primary">@color/tub_green</color>
+    <color name="md_theme_onPrimary">#FFFFFFFF</color>
+    <color name="md_theme_secondary">@color/tub_blue</color>
+    <color name="md_theme_onSecondary">#FFFFFFFF</color>
+    <color name="md_theme_background">@color/tub_cream</color>
+    <color name="md_theme_onBackground">#0E0E0E</color>
+    <color name="md_theme_surface">@color/tub_cream</color>
+    <color name="md_theme_onSurface">#0E0E0E</color>
+    <color name="md_theme_outline">#777777</color>
+</resources>
 

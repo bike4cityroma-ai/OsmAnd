@@ -1,0 +1,19 @@
+<resources>
+    <!-- Tema principale TheUrbeBike -->
+    <style name="Theme.TheUrbeBike" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colori principali -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+
+        <!-- Status bar e Navigation bar -->
+        <item name="android:statusBarColor">@color/md_theme_primary</item>
+        <item name="android:navigationBarColor">@color/md_theme_surface</item>
+
+        <!-- Splash screen (Android 12+) -->
+        <item name="android:windowSplashScreenBackground">@color/md_theme_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_logo_monochrome</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/md_theme_primary</item>
+    </style>
+</resources>
